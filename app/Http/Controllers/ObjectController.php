@@ -7,8 +7,18 @@ class ObjectController extends Controller
     public function getData($id = 0): array
     {
         $data = [
-            1 => [
+            [
+                'id' => 12345,
                 'owner_id' => 1,
+                'owner' => [
+                    'site' => 'https://www.mvgm.nl/',
+                    'company' => 'MVGM',
+                    'address' => 'Burgemeester Roelenweg 22',
+                    'postcode' => '8021 EW',
+                    'place' => 'Zwolle',
+                    'phone' => '1378-347689',
+                    'image' => 'https://www.mvgm.nl/wp-content/themes/mvgm/build/assets/86fce4755d10009dbc289e1658fcd288.png',
+                ],
                 'street' => 'Marga Klompéstraat',
                 'number' => 8,
                 'postcode' => '7421 HA',
@@ -39,8 +49,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            2 => [
+            [
+                'id' => 12346,
                 'owner_id' => 1,
+                'owner' => [
+                    'site' => 'https://www.mvgm.nl/',
+                    'company' => 'MVGM',
+                    'address' => 'Burgemeester Roelenweg 22',
+                    'postcode' => '8021 EW',
+                    'place' => 'Zwolle',
+                    'phone' => '1378-347689',
+                    'image' => 'https://www.mvgm.nl/wp-content/themes/mvgm/build/assets/86fce4755d10009dbc289e1658fcd288.png',
+                ],
                 'street' => 'Walstraat',
                 'number' => 7,
                 'postcode' => '7411 GJ',
@@ -70,8 +90,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            3 => [
+            [
+                'id' => 12347,
                 'owner_id' => 1,
+                'owner' => [
+                    'site' => 'https://www.mvgm.nl/',
+                    'company' => 'MVGM',
+                    'address' => 'Burgemeester Roelenweg 22',
+                    'postcode' => '8021 EW',
+                    'place' => 'Zwolle',
+                    'phone' => '1378-347689',
+                    'image' => 'https://www.mvgm.nl/wp-content/themes/mvgm/build/assets/86fce4755d10009dbc289e1658fcd288.png',
+                ],
                 'street' => 'Nieuwstraat',
                 'number' => 26,
                 'postcode' => '7411 LM',
@@ -102,8 +132,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            4 => [
+            [
+                'id' => 12348,
                 'owner_id' => 2,
+                'owner' => [
+                    'site' => 'https://www.nederwoon.nl/',
+                    'company' => 'nederwoon',
+                    'address' => 'Brinkgreverweg 38',
+                    'postcode' => '7413 AC',
+                    'place' => 'Deventer',
+                    'phone' => '0570-620899',
+                    'image' => 'https://www.nederwoon.nl/images/logo.png',
+                ],
                 'street' => 'Pelmolenweg',
                 'number' => 1,
                 'postcode' => '3511 XN',
@@ -134,8 +174,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            5 => [
+            [
+                'id' => 12349,
                 'owner_id' => 2,
+                'owner' => [
+                    'site' => 'https://www.nederwoon.nl/',
+                    'company' => 'nederwoon',
+                    'address' => 'Brinkgreverweg 38',
+                    'postcode' => '7413 AC',
+                    'place' => 'Deventer',
+                    'phone' => '0570-620899',
+                    'image' => 'https://www.nederwoon.nl/images/logo.png',
+                ],
                 'street' => 'Lijsterstraat',
                 'number' => 48,
                 'postcode' => '3514 TE',
@@ -167,8 +217,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            6 => [
+            [
+                'id' => 12350,
                 'owner_id' => 2,
+                'owner' => [
+                    'site' => 'https://www.mvgm.nl/',
+                    'company' => 'MVGM',
+                    'address' => 'Burgemeester Roelenweg 22',
+                    'postcode' => '8021 EW',
+                    'place' => 'Zwolle',
+                    'phone' => '1378-347689',
+                    'image' => 'https://www.mvgm.nl/wp-content/themes/mvgm/build/assets/86fce4755d10009dbc289e1658fcd288.png',
+                ],
                 'street' => 'Marco Pololaan',
                 'number' => 132,
                 'postcode' => '3526 GM',
@@ -199,8 +259,18 @@ class ObjectController extends Controller
                     ]
                 ],
             ],
-            7 => [
+            [
+                'id' => 12351,
                 'owner_id' => 3,
+                'owner' => [
+                    'site' => 'https://www.vestia.nl/',
+                    'company' => 'Vestia',
+                    'address' => 'Hilledijk 71',
+                    'postcode' => '3001 GA',
+                    'place' => 'Rotterdam',
+                    'phone' => '1287-677689',
+                    'image' => 'https://www.vestia.nl/ui_custom/images_vestia/vestia-logo.png',
+                ],
                 'street' => 'Vatternkade',
                 'number' => 101,
                 'postcode' => '7421 HA',

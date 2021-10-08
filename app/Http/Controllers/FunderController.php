@@ -7,7 +7,7 @@ class FunderController extends Controller
     public function getData($id = 0): array
     {
         $data = [
-            1 => [
+            [
                 'site' => 'https://www.mvgm.nl/',
                 'company' => 'MVGM',
                 'address' => 'Burgemeester Roelenweg 22',
@@ -16,16 +16,16 @@ class FunderController extends Controller
                 'phone' => '1378-347689',
                 'image' => 'https://www.mvgm.nl/wp-content/themes/mvgm/build/assets/86fce4755d10009dbc289e1658fcd288.png',
             ],
-            2 => [
+            [
                 'site' => 'https://www.nederwoon.nl/',
-                'company' => 'nederwoon',
+                'company' => 'Nederwoon',
                 'address' => 'Brinkgreverweg 38',
                 'postcode' => '7413 AC',
                 'place' => 'Deventer',
                 'phone' => '0570-620899',
                 'image' => 'https://www.nederwoon.nl/images/logo.png',
             ],
-            3 => [
+            [
                 'site' => 'https://www.vestia.nl/',
                 'company' => 'Vestia',
                 'address' => 'Hilledijk 71',

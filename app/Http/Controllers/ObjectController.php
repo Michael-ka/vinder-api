@@ -255,9 +255,9 @@ class ObjectController extends Controller
         $objects = $this->getData();
 
         $ownerObjects = [];
-        foreach ($objects as $object) {
-            if ($object['owner_id'] === $id) {
-                $ownerObjects[] = $object;
+        foreach ($objects as $key => $object) {
+            if ((int)$object['owner_id'] === (int)$id) {
+                $ownerObjects[$key] = $object;
             }
         }
         return response($ownerObjects);
